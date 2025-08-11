@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Arial";
+}
+
+.gameover {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: lightgray;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item1 {
+  
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: violet;
+}
+
+.item2 {
+  
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: lightskyblue;
+}
+
+.disabled {
+  pointer-events: none;
+  
+  
+  opacity: 0.65;
+  user-select: none;
+}
+
+.item_closed {
+  background-color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+   .gameover {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: lightgray;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item1 {
+  
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: violet;
+}
+
+.item2 {
+  
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: lightskyblue;
+}
+.disabled {
+  pointer-events: none;
+  
+  
+  opacity: 0.65;
+  user-select: none;
+}
+
+.item_closed {
+  background-color: black;
+}
+
+
+}
+
+@media (max-width: 767px) {
+  .gameover {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: lightgray;
+}
+.container {
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item1 {
+  
+  width: 80px;
+  height: 80px;
+  transition: 500ms;
+  background-color: violet;
+}
+
+.item2 {
+  
+  width: 80px;
+  height: 80px;
+  transition: 500ms;
+  background-color: lightskyblue;
+}
+
+.disabled {
+  pointer-events: none;
+  
+  
+  opacity: 0.65;
+  user-select: none;
+}
+
+.item_closed {
+  background-color: black;
+}
+
+}

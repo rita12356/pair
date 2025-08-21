@@ -1,3 +1,4 @@
+// контейнер
 let container = document.querySelector(`.container`);
 let prevNode = ``;
 
